@@ -1,0 +1,23 @@
+{
+  "name": "kysley-mssql-pool-bug-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --import ./ot.js --watch index.js",
+    "start-no-ot": "node --watch index.js"
+  },
+  "dependencies": {
+    "@opentelemetry/instrumentation": "^0.52.1",
+    "@opentelemetry/instrumentation-tedious": "^0.11.0",
+    "@opentelemetry/sdk-node": "^0.52.1",
+    "dotenv": "^16.4.5",
+    "kysely": "^0.27.3",
+    "tarn": "3.0.2",
+    "tedious": "17.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
