@@ -17,8 +17,8 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
-1. Run `npm run start`
-2. Wait a few seconds and see the OpenTelemetry trace output in the console
+5. Run `npm run start`
+6. Wait a few seconds and see the OpenTelemetry trace output in the console
 
 ### Example Traces
 
